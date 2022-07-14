@@ -1,5 +1,6 @@
-# BEER BUDDY
+# ZOO GUIDE
 - Live Demo Here: INSERT NEW LINK [Demo](https://chimerical-begonia-834f94.netlify.app/)
+
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
