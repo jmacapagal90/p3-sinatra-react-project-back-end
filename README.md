@@ -1,5 +1,6 @@
 # ZOO GUIDE
 - Live Demo Here: INSERT NEW LINK [Demo]
+- Link to Front-End Github Repo: https://github.com/jmacapagal90/p3-sinatra-react-project-front-end
 
 ## Table of Contents
 * [General Info](#general-information)
