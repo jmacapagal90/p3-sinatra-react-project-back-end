@@ -1,16 +1,14 @@
-default: &default
-  adapter: sqlite3
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  timeout: 5000
-
 development:
-  <<: *default
-  database: db/development.sqlite3
+  adapter: sqlite3
+  database: database.db
 
 test:
-  <<: *default
-  database: db/test.sqlite3
+  adapter: sqlite3
+  database: database.db
 
 production:
-  <<: *default
-  database: db/production.sqlite3
+  adapter: postgresql
+  database: zooguide-db #rename this to whatever you want
+  username: username
+  password: password
+  host: localhost

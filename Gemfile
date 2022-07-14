@@ -28,8 +28,8 @@ gem "sinatra-activerecord", "~> 2.0"
 # https://github.com/ruby/rake
 gem "rake", "~> 13.0"
 
-# Provides functionality to interact with a SQLite3 database
-gem "sqlite3", "~> 1.4"
+# # Provides functionality to interact with a SQLite3 database
+# gem "sqlite3", "~> 1.4"
 
 # Require all files in a folder
 gem "require_all", "~> 3.0"
@@ -54,3 +54,12 @@ end
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 gem 'activerecord-reset-pk-sequence'
 gem 'seed'
+
+group :development do
+   gem 'sqlite3'
+end
+
+group :production do
+   gem 'pg'
+   gem 'activerecord-postgresql-adapter'
+end
