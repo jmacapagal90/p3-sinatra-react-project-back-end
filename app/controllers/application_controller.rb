@@ -34,6 +34,9 @@ class ApplicationController < Sinatra::Base
 
   delete '/habitat/:id' do
     habitat = Habitat.find(params[:id])
+    sightings = Sighting.where(habitat_id: params[:id])
+    sightings.destroy_all
+    sightings.to_json
     habitat.destroy
     habitat.to_json(include: {sightings: {include: :animals}})
   end
