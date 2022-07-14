@@ -1,5 +1,5 @@
 # ZOO GUIDE
-- Live Demo Here: INSERT NEW LINK [Demo](https://chimerical-begonia-834f94.netlify.app/)
+- Live Demo Here: INSERT NEW LINK [Demo]
 
 ## Table of Contents
 * [General Info](#general-information)
