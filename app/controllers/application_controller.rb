@@ -47,6 +47,11 @@ class ApplicationController < Sinatra::Base
       animals.to_json(include: {sightings: {include: :habitat}})
   end
 
+  get '/animal/:id' do
+    animal = Animal.all.find(params[:id])
+    animal.to_json(include: {sightings: {include: :habitat}})
+  end
+
   post '/animals' do
       animal = Animal.create(
         name: params[:name],
