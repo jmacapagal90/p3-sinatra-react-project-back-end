@@ -12,5 +12,8 @@ test:
   database: db/test.sqlite3
 
 production:
-  <<: *default
-  database: db/production.sqlite3
+  adapter: postgresql
+  database: zoo_guide #rename this to whatever you want
+  username: username
+  password: password
+  host: localhost
