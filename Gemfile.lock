@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/faker-ruby/faker.git
-  revision: e36fb2bc4a75d8eb1116a6514c356c2bcf951538
+  revision: b98d32dcca8aa482525320d8463dff741af0d84d
   branch: master
   specs:
     faker (2.21.0)
@@ -9,13 +9,13 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (6.1.6)
-      activesupport (= 6.1.6)
-    activerecord (6.1.6)
-      activemodel (= 6.1.6)
-      activesupport (= 6.1.6)
+    activemodel (6.1.6.1)
+      activesupport (= 6.1.6.1)
+    activerecord (6.1.6.1)
+      activemodel (= 6.1.6.1)
+      activesupport (= 6.1.6.1)
     activerecord-reset-pk-sequence (0.2.1)
-    activesupport (6.1.6)
+    activesupport (6.1.6.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -33,7 +33,7 @@ GEM
     diff-lcs (1.5.0)
     eventmachine (1.2.7)
     ffi (1.15.5)
-    i18n (1.11.0)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)

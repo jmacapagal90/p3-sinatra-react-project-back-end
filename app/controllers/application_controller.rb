@@ -51,7 +51,9 @@ class ApplicationController < Sinatra::Base
       animal = Animal.create(
         name: params[:name],
         sighted: params[:sighted],
-        extinct: params[:extinct]
+        image: params[:image],
+        extinct: params[:extinct],
+        scientific_name: params[:scientific_name]
       )
       habitat.to_json(include: {sightings: {include: :habitat}})
   end
